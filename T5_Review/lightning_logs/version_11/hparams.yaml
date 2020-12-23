@@ -1,0 +1,15 @@
+adam_epsilon: 1.0e-08
+data_dir: all-data.csv
+eval_batch_size: 8
+gradient_accumulation_steps: 1
+lr: 0.0001
+max_seq_length: 512
+model_name: t5-base
+n_gpu: 1
+num_train_epochs: 2
+output_dir: Output_Directory
+seed: 42
+tokenizer_name: t5-base
+train_batch_size: 8
+warmup_steps: 50
+weight_decay: 0.0
